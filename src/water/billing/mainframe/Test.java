@@ -22,7 +22,7 @@ public class Test {
 		for(String message:myMessageSaved) System.out.println(message);
 	}
 	public static void main(String[] input) {
-		Test myTest = new Test(10, "Se llamo ");
+		Test myTest = new Test(10, "Me llamo ");
 		myTest.addMessages();
 		myTest.printMessages();
 	}

@@ -14,6 +14,7 @@ public class Account implements Serializable{
 	private double monthlyPayment;
 	private double amountDue;
 	private double billedAmount;
+	private double usage;
 	private int accountType;
 	private String accountId;
 	private String street1;
@@ -134,5 +135,11 @@ public class Account implements Serializable{
 	}
 	public void setUtilityType(int utilityType) {
 		this.utilityType = utilityType;
+	}
+	public double getUsage() {
+		return usage;
+	}
+	public void setUsage(double usage) {
+		this.usage = usage;
 	}
 }
